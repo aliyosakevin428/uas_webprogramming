@@ -1,3 +1,4 @@
+import { MessageSquareText } from "lucide-react";
 import { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -16,7 +17,7 @@ const CommentList = () => {
     <>
       <div className="h-72 flex justify-center items-center">
         <h1 className="font-bold text-5xl">
-          Here is the comment of our viewers
+          <MessageSquareText /> Here is the comment of our viewers
         </h1>
       </div>
       <div className="gap-8 p-6 grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
